@@ -64,7 +64,11 @@ switch (num2) {
     num = num + " chín mươi";
     break;
   default:
-    num = num + " linh";
+    if (num1 === 0) {
+      break;
+    } else {
+      num = num + " linh";
+    }
     break;
 }
 switch (num3) {
